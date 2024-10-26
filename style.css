@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#header{
+    height: 30px;
+    width: 100%;
+    background-color: #8fa58b;
+    text-align: center;
+    color: #364d3b;
+    padding-top: 7px;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: #153B3C;
+   
+}
+#nav a{
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    color: #f6f6f6;
+}
+#buy{
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    margin-left: 900px;
+    background-color: #87A17F;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#img1{
+    height: 550px;
+    width: 400px;
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1724128195210-f71951190023?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    margin-left: 950px;
+
+}
+#imgtext{
+    height: 100px;
+    width: 200px;
+    margin-left: 850px;
+    background-color: white;
+    position: absolute;
+    bottom: 120px;
+    display: flex;
+}
+#img2{
+    height: 45px;
+    width: 45px;
+    background-image: url(image\ copy.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#img2text{
+    height: 60px;
+    width: 120px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 12px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#maintext{
+    height: 500px;
+    width: 600px;
+    color: #87A17F;
+    position: absolute;
+    bottom: 80px;
+    left: 190px;
+}
+#maintext h1{
+    color: black;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#maintext p{
+    color: #87A17F;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#dark,#light{
+    margin-top: 20px;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 150px;
+    border: transparent;
+    border-radius: 4px;
+    color: azure;
+    font-weight: 550;
+}
+#light{
+    margin-left: 20px;
+    background-color: #84A07E;
+}
+#dark{
+    background-color: #133C3A;
+}
+#maintext h3{
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+span{
+    font-weight: bold;
+}
+#icons{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    background-color: #E3ECE0;
+    position: relative;
+    border: 30px solid white;
+}
+.allicons{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#page2img{
+    height: 600px;
+    width: 450px;
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1536303158031-c868b371399f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbGUlMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+#page2text{
+    height: 500px;
+    width: 550px;
+    color: #87A17F;
+    position: absolute;
+    bottom: 240px;
+    left: 750px;
+}
+#page2text h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#page2text p{
+    color: grey;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#page2button{
+    margin-top: 30px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 150px;
+    border: 0.3px solid grey;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    font-weight: 400;
+}
+#page2text .detail{
+    margin-top: 80px;
+}
+
+#profile{
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 10px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+}
+#profile h4{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+#profile p{
+    font-weight: 400;
+    font-size: 10px;
+    color: black;
+}
+#box{
+    margin-left: 280px;
+    height: 300px;
+    width: 1000px;
+    background-image: url(https://images.unsplash.com/photo-1671159593357-ee577a598f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+#text-box{
+    height: 100%;
+    width: 50%;
+    color: white;
+    position: relative;
+    justify-content: center;
+
+}
+#text{
+    height: 100px;
+    width: 420px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#text-details{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+#text p{
+    margin-top: 30px;
+    font-size: 10px;
+}
+#details{
+    height: 100px;
+    width: 420px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#name,#email{
+    height: 40px;
+    width: 350px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+#name{
+    margin-top: 10px;
+}
+#email{
+    margin-top: 15px;
+}
+#btn{
+    margin-top: 20px;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 150px;
+    border: transparent;
+    color: azure;
+    font-weight: 550;
+    background-color: #474747;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#page3img{
+    height: 550px;
+    width: 400px;
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1490092374320-1ca36d69ff6a?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 950px;
+
+}
+#boxtext{
+    height: 200px;
+    width: 200px;
+    margin-left: 850px;
+    position: absolute;
+    background-color: white;
+    bottom: 250px;
+    display: flex;
+}
+#img3{
+    height: 50px;
+    width: 10000px;
+    background-image: url(img3.png);
+background-position: center;
+background-size: cover;
+    margin-left: 30px;
+    margin-top: 60%;
+}
+#img3text{
+    height: 60px;
+    width: 120px;
+    background-color: rgb(255, 247, 247);
+    margin-left: 20px;
+    margin-top: 12px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
